@@ -1,0 +1,79 @@
+@import url(https://fonts.google.com/specimen/Inter);
+
+body{
+    background-color: hsl(0, 0%, 8%);
+    text-align: center;
+    font-family: "Inter", sans-serif;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+    margin-top: 35px;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+.name{
+    color: hsl(0, 0%, 100%);
+    margin-bottom:8px;
+    font-size: 20px;
+}
+
+.location{
+    color: hsl(75, 94%, 57%);
+    margin-bottom: 30px;
+    font-size: 14px;
+}
+
+.tagline{
+    color: hsla(0, 0%, 100%, 0.634);
+    margin-bottom: 20px;
+    font-size: 14px;;
+}
+
+.dark-grey-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%,-50%);
+    background-color: hsl(0, 0%, 12%);
+    width: 100%;
+    max-width: 375px;
+    height: 500px;
+    border-radius: 2%;
+}
+
+.button{
+    font-size: 14px;
+    display: block;
+    margin: 0 auto;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(0, 0%, 20%);
+    width: 300px;
+    height: 40px;
+    border: none;
+    margin-bottom: 15px;
+    border-radius: 7px;
+    font-weight: 600;
+}
+
+.button:hover{
+    background-color: hsl(75, 94%, 57%);
+    cursor: pointer;
+    color: hsl(0, 0%, 8%);
+}
+
+.profile-img{
+    border-radius: 50%;
+    width: 80px;
+    margin-top: 50px;
+    margin-bottom: 20px;;
+}
+
+a{
+    text-decoration: none;
+}
